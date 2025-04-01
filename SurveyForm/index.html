@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Dogs or Cats?</h1>
+    <p id="description">Choose your favourite pet</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">
+          Name
+          <input id="name" type="text" placeholder="Enter your name..." required/>
+        </label>
+        <label id="email-label" for="email">
+          Email
+          <input id="email" type="email" placeholder="Enter your email..." required/>
+        </label>
+        <label id="number-label" for="number">
+          Age
+          <input id="number" type="number"placeholder="Enter your age..." min="5" max="120" required/>
+        </label>
+        <select id="dropdown">
+          <option>Select your current role</option>
+          <option>Student</option>
+          <option>Full time Job</option>
+          <option>Full time Learner</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Which one do you prefer?</legend>
+        <label>
+          <input type="radio" name="meow" value="dogs" checked/>
+          Dogs
+        </label>
+        <label>
+          <input type="radio" name="meow" value="cats"/>
+          Cats
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Which fur color do you prefer?</legend>
+        <label>
+          <input type="checkbox" name="hair" value="blonde-orange"/>
+          Blonde/Orange
+        </label>
+        <label>
+          <input type="checkbox" name="hair" value="brown"/>
+          Brown
+        </label>
+        <label>
+          <input type="checkbox" name="hair" value="black"/>
+          Black
+        </label>
+        <label>
+          <input type="checkbox" name="hair" value="multicolor"/>
+          Multicolor
+        </label>
+        <label>
+          <input type="checkbox" name="hair" value="other"/>
+          Other
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>We would like to hear your opinion!</legend>
+        <textarea placeholder="Enter your opinion..."></textarea>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
