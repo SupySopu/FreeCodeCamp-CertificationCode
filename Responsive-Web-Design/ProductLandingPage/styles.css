@@ -1,0 +1,41 @@
+*{
+  font-family: Verdana, sans-serif;
+}
+
+#header-img{
+  width: 50px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a{
+  padding: 20px;
+}
+
+#video{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (max-width: 100px){
+  *{
+    font-family: sans-serif;
+  }
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+}

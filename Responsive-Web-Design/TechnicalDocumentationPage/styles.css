@@ -1,0 +1,48 @@
+*{
+  font-family: Verdana;
+}
+
+@media (max-width: 1000px){
+  * {
+    width: 100%;
+  }
+}
+
+.code {
+  background: blue;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+nav{
+  background: blue;
+  margin: 0 0;
+  display: flex;
+
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  overflow-y: auto;
+}
+
+main {
+  position: absolute !important;
+  left: 260px !important;
+}
+
+a{
+  color: black;
+}
+
+header{
+  font-weight: bold;
+}
+
+section{
+  padding: 20px;
+}
